@@ -21,7 +21,7 @@ public class TextToSequenceConverter
      * @throws InstantiationException
      */
     public static void main(String[] args) throws IOException,
-            InstantiationException, IllegalAccessException {
+            InstantiationException, IllegalAccessException { 
 
         Configuration conf = new Configuration();
         //conf.addResource(new Path("/usr/local/hadoop/etc/hadoop/core-site.xml"));
